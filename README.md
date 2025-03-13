@@ -11,11 +11,9 @@ This script allows you to easily change your currency on Stake.com. For example,
 For detailed instructions, watch the tutorial video if you're unsure about how to use the script on the website.
 
 **Premium Version:**
-
 https://larping.mysellauth.com/product/stake
 
 **Download:**
-
 https://github.com/tools2larp/stake
 
 **Support:**  

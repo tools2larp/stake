@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Stake",
+    "version": "1.0",
+    "description": "t.me/staketools",
+    "permissions": ["tabs", "storage", "activeTab", "scripting"],
+    "host_permissions": ["https://stake.com/*"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://stake.com/*"],
+            "js": ["content.js"],
+            "run_at": "document_idle"
+        }
+    ],
+    "action": {}
+}
